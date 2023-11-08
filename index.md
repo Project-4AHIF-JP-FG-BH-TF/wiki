@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "Loggaroo Wiki"
-  text: "The docs for the Loggaroo Application"
+  text: "The docs for the Loggarooooooo Application"
   tagline: My great project tagline
   actions:
     - theme: brand
