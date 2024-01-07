@@ -13,9 +13,27 @@
 
 ##### Responses
 
-> | http code | response            |
-> |-----------|---------------------|
-> | `200`     | `{logs: {todo!}[]}` |
-> | `500`     |                     |
+> | http code | response                |
+> |-----------|-------------------------|
+> | `200`     | `{logs: logEntry[]}`    |
+> | `400`     | missing/wrong body data |
+> | `500`     |                         |
+
+LogEntry data structure
+
+```ts
+{
+  session_id: UUID;
+  file_name: string;
+  entry_nr: number;
+  creation_date: Date;
+  classification: "info" | "error";
+  service_ip: string;
+  user_id: string;
+  user_session_id: string;
+  java_class: string;
+  content: string;
+}
+```
 
 </details>
