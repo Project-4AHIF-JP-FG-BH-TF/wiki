@@ -1,25 +1,3 @@
-<style>
-    .blue{
-        background-color: blue;
-        border-radius: 3px;
-        font-weight: bold;
-        padding: 2px 4px;
-        text-align: center;
-
-        display: inline-block;
-    }
-
-    .green{
-        background-color: green;
-        border-radius: 3px;
-        font-weight: bold;
-        padding: 2px 4px;
-        text-align: center;
-
-        display: inline-block;
-    }
-</style>
-
 <details>
  <summary>
     <span class="blue">GET</span> <code><b>/api/session</b></code> (creates a new session)
