@@ -4,22 +4,10 @@ layout: home
 
 hero:
   name: "Loggaroo Wiki"
-  text: "The docs for the Loggarooooooo Application"
-  tagline: My great project tagline
+  text: "The docs for the Loggaroo Application"
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
-
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+      text: Routes
+      link: /routes/
 ---
 
