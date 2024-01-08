@@ -3,7 +3,7 @@
     <span class="blue">GET</span> <code><b>/api/log/{session-uuid}</b></code> (get log messages of a session)
 </summary>
 
-##### Parameters
+##### Body Parameters
 
 > | name  | type     | data type | description                      |
 > |-------|----------|-----------|----------------------------------|
