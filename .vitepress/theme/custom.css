@@ -1,0 +1,16 @@
+.blue, .green{
+    border-radius: 3px;
+    font-weight: bold;
+    padding: 1px 4px;
+    text-align: center;
+
+    display: inline-block;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.green{
+    background-color: green;
+}
