@@ -8,7 +8,7 @@
 > | http code | response                       |
 > |-----------|--------------------------------|
 > | `200`     | `{uuid: (newly created uuid)}` |
-> | `500`     |                                |
+> | `500`     | internal server error          |
 
 </details>
 
@@ -21,9 +21,9 @@ this needs to be periodically called so the session does not close
 
 ##### Responses
 
-> | http code | response                   |
-> |-----------|----------------------------|
-> | `200`     | `{uuid: (refreshed uuid)}` |
-> | `500`     |                            |
+> | http code | response                                 |
+> |-----------|------------------------------------------|
+> | `200`     | `{uuid: (refreshed uuid)}`               |
+> | `500`     | internal server error or unknown session |
 
 </details>

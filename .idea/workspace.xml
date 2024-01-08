@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ef6d1aba-bea4-43e8-b30c-18b5a23ce674" name="Changes" comment="init">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/node/log.md" beforeDir="false" afterPath="$PROJECT_DIR$/routes/node/log.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/node/session.md" beforeDir="false" afterPath="$PROJECT_DIR$/routes/node/session.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,12 +49,16 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;routes&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/dev/school/4AHIF/loggaroo/wiki&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.docs:dev.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\jonas\\AppData\\Local\\Programs\\IntelliJ IDEA Ultimate\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -97,6 +103,10 @@
       <workItem from="1699869732119" duration="221000" />
       <workItem from="1699869956231" duration="1966000" />
       <workItem from="1704631928240" duration="92000" />
+      <workItem from="1704702337723" duration="353000" />
+      <workItem from="1704702706302" duration="184000" />
+      <workItem from="1704702939229" duration="30000" />
+      <workItem from="1704702977813" duration="69000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />

@@ -17,7 +17,7 @@
 > |-----------|-------------------------|
 > | `200`     | `{logs: logEntry[]}`    |
 > | `400`     | missing/wrong body data |
-> | `500`     |                         |
+> | `500`     | internal server error   |
 
 LogEntry data structure
 
