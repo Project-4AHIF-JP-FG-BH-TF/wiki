@@ -9,5 +9,8 @@ hero:
     - theme: brand
       text: Routes
       link: /routes/
+    - theme: brand
+      text: Colors
+      link: /colors
 ---
 

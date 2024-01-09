@@ -9,22 +9,25 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       {text: 'Home', link: '/'},
+
     ],
 
     sidebar: [
+      {text: "colors", link: "/colors"},
       {
-        text: 'routes', items: [{
-          text: 'rust',
-          collapsed: true,
-          items: []
-        }, {
-          text: 'node',
-          collapsed: true,
-          items: [
-            {text: "session", link: "/routes/node/session"},
-            {text: "log", link: "/routes/node/log"}
-          ]
-        }]
+        text: 'routes', items: [
+          {
+            text: 'rust',
+            collapsed: true,
+            items: []
+          }, {
+            text: 'node',
+            collapsed: true,
+            items: [
+              {text: "session", link: "/routes/node/session"},
+              {text: "log", link: "/routes/node/log"}
+            ]
+          }]
       },
 
     ],
