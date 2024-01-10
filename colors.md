@@ -8,6 +8,7 @@
 <br/> <div style="background-color: #9f3575" class="color"></div> #9f3575
 <br/> <div style="background-color: #a05297" class="color"></div> #a05297
 <br/> <div style="background-color: #d65e8d" class="color"></div> #d65e8d
+<br/> <div style="background-color: #E53F4E" class="color"></div> #E53F4E
 
 <br/> <div style="background-color: #a2acbd" class="color"></div> #a2acbd
 <br/> <div style="background-color: #3e4756" class="color"></div> #3e4756
