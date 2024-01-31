@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef6d1aba-bea4-43e8-b30c-18b5a23ce674" name="Changes" comment="add red">
+    <list default="true" id="ef6d1aba-bea4-43e8-b30c-18b5a23ce674" name="Changes" comment="update session post">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/node/session.md" beforeDir="false" afterPath="$PROJECT_DIR$/routes/node/session.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/colors.md" beforeDir="false" afterPath="$PROJECT_DIR$/visual.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +126,7 @@
       <workItem from="1704796212250" duration="700000" />
       <workItem from="1704797833479" duration="1695000" />
       <workItem from="1704870383793" duration="1996000" />
-      <workItem from="1706710926339" duration="158000" />
+      <workItem from="1706710926339" duration="382000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -191,7 +192,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704870461264</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="update session post">
+      <option name="closed" value="true" />
+      <created>1706711097691</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1706711097691</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,6 +223,7 @@
     <MESSAGE value="add some colors" />
     <MESSAGE value="add header" />
     <MESSAGE value="add red" />
-    <option name="LAST_COMMIT_MESSAGE" value="add red" />
+    <MESSAGE value="update session post" />
+    <option name="LAST_COMMIT_MESSAGE" value="update session post" />
   </component>
 </project>

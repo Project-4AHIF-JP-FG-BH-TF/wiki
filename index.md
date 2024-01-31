@@ -10,7 +10,7 @@ hero:
       text: Routes
       link: /routes/
     - theme: brand
-      text: Colors
-      link: /colors
+      text: Visual
+      link: /visual
 ---
 
