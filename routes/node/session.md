@@ -24,6 +24,7 @@ this needs to be periodically called so the session does not close
 > | http code | response                                 |
 > |-----------|------------------------------------------|
 > | `200`     | `{uuid: (refreshed uuid)}`               |
+> | `404`     | session not found                        |
 > | `500`     | internal server error or unknown session |
 
 </details>
