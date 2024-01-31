@@ -3,7 +3,7 @@
     <span class="blue">GET</span> <code><b>/api/log/{session-uuid}</b></code> (get log messages of a session)
 </summary>
 
-##### Body Parameters
+##### Query Parameters
 
 > | name                   | type     | data type         | description                                |
 > |------------------------|----------|-------------------|--------------------------------------------|
@@ -42,5 +42,32 @@ LogEntry data structure
   content: string;
 }
 ```
+
+</details>
+
+<details>
+ <summary>
+    <span class="blue">GET</span> <code><b>/api/log/{session-uuid}/ips</b></code> (get all possible ips)
+</summary>
+
+##### Query Parameters
+
+> | name                   | type     | data type         | description                                |
+> |------------------------|----------|-------------------|--------------------------------------------|
+> | files                  | required | string[]          | a list of all used file names              |
+> | filters.date.from      | optional | Date              | start of range of valid dates              |
+> | filters.date.to        | optional | Date              | end of range of valid dates                |
+> | filters.ip             | optional | string            | only ip to be returned                     |
+> | filters.text           | optional | string            | text to be included in the content         |
+> | filters.regex          | optional | bool              | if the text should be interpreted as regex |
+> | filters.classification | optional | "info" or "error" | only classification to be returned         |
+
+##### Responses
+
+> | http code | response                |
+> |-----------|-------------------------|
+> | `200`     | `{ips: string[]}`       |
+> | `400`     | missing/wrong body data |
+> | `500`     | internal server error   |
 
 </details>
