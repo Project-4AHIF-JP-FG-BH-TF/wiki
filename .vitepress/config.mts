@@ -19,7 +19,9 @@ export default defineConfig({
           {
             text: 'rust',
             collapsed: true,
-            items: []
+            items: [
+              {text: "files", link: "/routes/rust/files"}
+            ]
           }, {
             text: 'node',
             collapsed: true,
