@@ -1,6 +1,6 @@
 ## icons
 
-icons can be found [here](https://icones.js.org/)
+icons can be found [here](https://iconify.design/)
 
 ## Colors
 

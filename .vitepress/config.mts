@@ -27,7 +27,8 @@ export default defineConfig({
             collapsed: true,
             items: [
               {text: "session", link: "/routes/node/session"},
-              {text: "log", link: "/routes/node/log"}
+              {text: "log", link: "/routes/node/log"},
+              {text: "files", link: "/routes/node/files"}
             ]
           }]
       },
