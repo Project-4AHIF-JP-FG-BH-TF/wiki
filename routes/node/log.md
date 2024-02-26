@@ -30,16 +30,16 @@ LogEntry data structure
 
 ```ts
 {
-  session_id: UUID;
-  file_name: string;
-  entry_nr: number;
-  creation_date: Date;
-  classification: "info" | "error";
-  service_ip: string;
-  user_id: string;
-  user_session_id: string;
-  java_class: string;
-  content: string;
+    session_id: UUID;
+    file_name: string;
+    entry_nr: number;
+    creation_date: Date;
+    classification: "info" | "error";
+    service_ip: string | undefined;
+    user_id: string | undefined;
+    user_session_id: string | undefined;
+    java_class: string;
+    content: string;
 }
 ```
 
