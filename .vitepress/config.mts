@@ -22,7 +22,7 @@ export default withMermaid({
             collapsed: true,
             items: [
               {text: "files", link: "/routes/rust/files"}
-            ]k
+            ]
           }, {
             text: 'node',
             collapsed: true,
