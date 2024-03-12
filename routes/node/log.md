@@ -5,18 +5,18 @@
 
 ##### Query Parameters
 
-> | name                   | type     | data type         | description                                |
-> |------------------------|----------|-------------------|--------------------------------------------|
-> | from                   | required | int               | first index of the returned logs           |
-> | count                  | required | int               | max count of returned logs                 |
-> | files                  | required | string[]          | a list of all used file names              |
-> | order                  | optional | "ASC" or "DESC"   | how the data should be sorted              |       
-> | filters.date.from      | optional | Date              | start of range of valid dates              |
-> | filters.date.to        | optional | Date              | end of range of valid dates                |
-> | filters.ip             | optional | string            | only ip to be returned                     |
-> | filters.text           | optional | string            | text to be included in the content         |
-> | filters.regex          | optional | bool              | if the text should be interpreted as regex |
-> | filters.classification | optional | "info" or "error" | only classification to be returned         |
+> | name                   | type     | data type       | description                                |
+> |------------------------|----------|-----------------|--------------------------------------------|
+> | from                   | required | int             | first index of the returned logs           |
+> | count                  | required | int             | max count of returned logs                 |
+> | files                  | required | string[]        | a list of all used file names              |
+> | order                  | optional | "ASC" or "DESC" | how the data should be sorted              |       
+> | filters.date.from      | optional | Date            | start of range of valid dates              |
+> | filters.date.to        | optional | Date            | end of range of valid dates                |
+> | filters.ip             | optional | string          | only ip to be returned                     |
+> | filters.text           | optional | string          | text to be included in the content         |
+> | filters.regex          | optional | bool            | if the text should be interpreted as regex |
+> | filters.classification | optional | string          | only classification to be returned         |
 
 ##### Responses
 
@@ -52,15 +52,14 @@ LogEntry data structure
 
 ##### Query Parameters
 
-> | name                   | type     | data type         | description                                |
-> |------------------------|----------|-------------------|--------------------------------------------|
-> | files                  | required | string[]          | a list of all used file names              |
-> | filters.date.from      | optional | Date              | start of range of valid dates              |
-> | filters.date.to        | optional | Date              | end of range of valid dates                |
-> | filters.ip             | optional | string            | only ip to be returned                     |
-> | filters.text           | optional | string            | text to be included in the content         |
-> | filters.regex          | optional | bool              | if the text should be interpreted as regex |
-> | filters.classification | optional | "info" or "error" | only classification to be returned         |
+> | name                   | type     | data type | description                                |
+> |------------------------|----------|-----------|--------------------------------------------|
+> | files                  | required | string[]  | a list of all used file names              |
+> | filters.date.from      | optional | Date      | start of range of valid dates              |
+> | filters.date.to        | optional | Date      | end of range of valid dates                |
+> | filters.text           | optional | string    | text to be included in the content         |
+> | filters.regex          | optional | bool      | if the text should be interpreted as regex |
+> | filters.classification | optional | string    | only classification to be returned         |
 
 ##### Responses
 
@@ -87,7 +86,6 @@ LogEntry data structure
 > | filters.ip             | optional | string            | only ip to be returned                     |
 > | filters.text           | optional | string            | text to be included in the content         |
 > | filters.regex          | optional | bool              | if the text should be interpreted as regex |
-> | filters.classification | optional | "info" or "error" | only classification to be returned         |
 
 ##### Responses
 

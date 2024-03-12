@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef6d1aba-bea4-43e8-b30c-18b5a23ce674" name="Changes" comment="remove random k">
+    <list default="true" id="ef6d1aba-bea4-43e8-b30c-18b5a23ce674" name="Changes" comment="classifications route">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/node/log.md" beforeDir="false" afterPath="$PROJECT_DIR$/routes/node/log.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="mermaid" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -73,7 +72,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "classifications",
     "last_opened_file_path": "C:/dev/school/4AHIF/loggaroo/wiki",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.stylelint": "true",
@@ -244,7 +243,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709734800551</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="classifications route">
+      <option name="closed" value="true" />
+      <created>1710241438064</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1710241438064</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,6 +278,7 @@
     <MESSAGE value="added README.md" />
     <MESSAGE value="add mermaid and database structure" />
     <MESSAGE value="remove random k" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove random k" />
+    <MESSAGE value="classifications route" />
+    <option name="LAST_COMMIT_MESSAGE" value="classifications route" />
   </component>
 </project>
