@@ -34,7 +34,7 @@ LogEntry data structure
     file_name: string;
     entry_nr: number;
     creation_date: Date;
-    classification: "info" | "error";
+    classification: string;
     service_ip: string | undefined;
     user_id: string | undefined;
     user_session_id: string | undefined;
