@@ -1,7 +1,7 @@
-import {defineConfig} from 'vitepress'
+import {withMermaid} from "vitepress-plugin-mermaid";
 
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
+export default withMermaid({
   base: "/wiki/",
   title: "Loggaroo Wiki",
   description: "The docs for the Loggaroo Application",
@@ -14,6 +14,7 @@ export default defineConfig({
 
     sidebar: [
       {text: "colors", link: "/colors"},
+      {text: "database", link: "/database"},
       {
         text: 'routes', items: [
           {
@@ -38,5 +39,13 @@ export default defineConfig({
     socialLinks: [
       {icon: 'github', link: 'https://github.com/Project-4AHIF-JP-FG-BH-TF'}
     ]
-  }
+  },
+  optimizeDeps: {
+    include: ['@braintree/sanitize-url'],
+  },
+  resolve: {
+    alias: {
+      dayjs: 'dayjs/',
+    },
+  },
 })

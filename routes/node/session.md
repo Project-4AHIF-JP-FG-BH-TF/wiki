@@ -28,3 +28,8 @@ this needs to be periodically called so the session does not close
 > | `500`     | internal server error or unknown session |
 
 </details>
+
+```mermaid
+flowchart TD
+    Start --> Stop
+```
