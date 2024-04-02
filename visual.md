@@ -16,6 +16,7 @@ icons can be found [here](https://iconify.design/)
 
 <br/> <div style="background-color: #a2acbd" class="color"></div> #a2acbd
 <br/> <div style="background-color: #3e4756" class="color"></div> #3e4756
+<br/> <div style="background-color: #373F4D" class="color"></div> #373F4D
 <br/> <div style="background-color: #1f2836" class="color"></div> #1f2836
 
 <br/> <div style="background-color: #82c876" class="color"></div> #82c876
