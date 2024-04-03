@@ -17,10 +17,9 @@
 
 ##### Responses
 
-> | http code | response                                          |
-> |-----------|---------------------------------------------------|
-> | `200`     | `{classification: Classification, count: number}` |
-> | `400`     | bad request                                       |
-> | `500`     | internal server error                             |
+> | http code | response                                  |
+> |-----------|-------------------------------------------|
+> | `200`     | `{classification: string, count: number}` |
+> | `400`     | bad request                               |
 
 </details>

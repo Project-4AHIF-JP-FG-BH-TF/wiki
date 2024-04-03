@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef6d1aba-bea4-43e8-b30c-18b5a23ce674" name="Changes" comment="classifications route">
-      <change afterPath="$PROJECT_DIR$/routes/node/charts.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/config.mts" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/config.mts" afterDir="false" />
-    </list>
+    <list default="true" id="ef6d1aba-bea4-43e8-b30c-18b5a23ce674" name="Changes" comment="added classification route" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -139,7 +136,7 @@
       <workItem from="1704870383793" duration="1996000" />
       <workItem from="1706710926339" duration="382000" />
       <workItem from="1710150537155" duration="1035000" />
-      <workItem from="1712153062877" duration="651000" />
+      <workItem from="1712153062877" duration="1347000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -245,7 +242,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710241438064</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="added classification route">
+      <option name="closed" value="true" />
+      <created>1712153769368</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1712153769368</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,6 +278,7 @@
     <MESSAGE value="add mermaid and database structure" />
     <MESSAGE value="remove random k" />
     <MESSAGE value="classifications route" />
-    <option name="LAST_COMMIT_MESSAGE" value="classifications route" />
+    <MESSAGE value="added classification route" />
+    <option name="LAST_COMMIT_MESSAGE" value="added classification route" />
   </component>
 </project>
