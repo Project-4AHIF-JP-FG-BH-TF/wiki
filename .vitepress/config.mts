@@ -29,7 +29,8 @@ export default withMermaid({
             items: [
               {text: "session", link: "/routes/node/session"},
               {text: "log", link: "/routes/node/log"},
-              {text: "files", link: "/routes/node/files"}
+              {text: "files", link: "/routes/node/files"},
+              {text: "charts", link: "/routes/node/charts"}
             ]
           }]
       },
