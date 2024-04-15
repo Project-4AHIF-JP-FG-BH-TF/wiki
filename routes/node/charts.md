@@ -17,9 +17,9 @@
 
 ##### Responses
 
-> | http code | response                                  |
-> |-----------|-------------------------------------------|
-> | `200`     | `{classification: string, count: number}` |
-> | `400`     | bad request                               |
+> | http code | response                                            |
+> |-----------|-----------------------------------------------------|
+> | `200`     | `{data: {classification: string, count: number}[]}` |
+> | `400`     | bad request                                         |
 
 </details>
